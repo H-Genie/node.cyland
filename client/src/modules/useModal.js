@@ -1,6 +1,8 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-modal';
 import styled from 'styled-components';
+
+Modal.setAppElement('#root');
 
 const customStyles = {
     overlay: {
@@ -17,12 +19,6 @@ const customStyles = {
         height: '-webkit-fill-available'
     },
 };
-
-const Img = styled.img`
-    height : 100%;
-`;
-
-Modal.setAppElement('#root');
 
 export const ModalHuge = () => {
     const [modal, setModal] = useState(false);
@@ -90,3 +86,7 @@ export const ModalVom = () => {
         </>
     )
 }
+
+const Img = styled.img`
+    height : 100%;
+`;

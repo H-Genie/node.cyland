@@ -1,11 +1,6 @@
+import React from 'react';
 import styled from 'styled-components';
-import Ilchon from '../Components/CylandRight/Ilchon';
-
-const Img = styled.img`
-    width : 100%;
-    height : 346px;
-    margin-bottom : 10px;
-`;
+import CommentContainer from '../Components/RightInterior/Home/CommentContainer';
 
 const Home = () => {
     document.title = "H-Genie.com";
@@ -13,9 +8,15 @@ const Home = () => {
     return (
         <>
             <Img src="./images/miniroom.jpg" alt="miniroom" />
-            <Ilchon />
+            <CommentContainer />
         </>
     )
 }
 
 export default Home;
+
+const Img = styled.img`
+    width : 100%;
+    height : 346px;
+    margin-bottom : 10px;
+`;

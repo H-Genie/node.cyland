@@ -1,26 +1,8 @@
+import React from 'react';
 import Slider from "react-slick";
 import styled from 'styled-components';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-const StyledSlider = styled(Slider)`
-    width : 320px;
-    
-    .slick-prev, .slick-next {
-        // display : none !important;
-        z-index : 1;
-    }
-
-    .slick-prev {left : 0;}
-    .slick-next {right : 0;}
-
-    .slick-prev:before, .slick-next:before {
-        color : #f1f1f1;
-    }
-
-    img {width : 100%;}
-    h6 {text-align : center;}
-`;
 
 export const CarouselPortfolio = () => {
     const settings = {
@@ -144,3 +126,21 @@ export const CarouselStory = () => {
         </>
     )
 }
+
+const StyledSlider = styled(Slider)`
+    width : 320px;
+    
+    .slick-prev, .slick-next {
+        z-index : 1;
+    }
+
+    .slick-prev {left : 0;}
+    .slick-next {right : 0;}
+
+    .slick-prev:before, .slick-next:before {
+        color : #f1f1f1;
+    }
+
+    img {width : 100%;}
+    h6 {text-align : center;}
+`;

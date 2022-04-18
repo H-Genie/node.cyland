@@ -1,12 +1,13 @@
+import React from 'react';
 import { Section } from '../styled/Router';
-import { Visitor, VisitorPortfolio } from '../Components/CylandRight/Visitor';
-import * as obj from '../Components/CylandRight/portfolioObj';
+import Visitor from '../Components/RightInterior/visitor/Visitor';
+import * as contents from '../Components/RightInterior/contents/portfolioContents';
 import { CarouselPortfolio } from '../modules/useCarousel';
 
 const Portfolio = () => {
     document.title = "Portfolio";
 
-    const notice =
+    const notice = (
         <>
             <br />
             <p>포트폴리오는 중요도 순서가 아닌, 진행한 순서대로 기재했습니다.</p>
@@ -16,20 +17,21 @@ const Portfolio = () => {
             <CarouselPortfolio />
             <br />
         </>
+    );
 
     return (
         <Section>
-            <Visitor no={0} visitor={notice} notice="true" />
-            <VisitorPortfolio no={1} content={obj.huge} />
-            <VisitorPortfolio no={2} content={obj.netflix} />
-            <VisitorPortfolio no={3} content={obj.naver} />
-            <VisitorPortfolio no={4} content={obj.genesis} />
-            <VisitorPortfolio no={5} content={obj.flag} />
-            <VisitorPortfolio no={6} content={obj.vom} />
-            <VisitorPortfolio no={7} content={obj.todo} />
-            <VisitorPortfolio no={8} content={obj.cyland} />
-            <VisitorPortfolio no={9} content={obj.movieapp} />
-            <VisitorPortfolio no={10} content={obj.covid} />
+            <Visitor no={0} content={notice} notice={true} />
+            {
+                Object.values(contents).map((portfolio, index) => (
+                    <Visitor
+                        key={index + 1}
+                        no={index + 1}
+                        content={portfolio}
+                        type={"portfolio"}
+                    />
+                ))
+            }
         </Section>
     )
 }

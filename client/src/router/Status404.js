@@ -1,11 +1,6 @@
+import React from 'react';
 import styled from 'styled-components';
 import { Section } from '../styled/Router';
-
-const Center = styled(Section)`
-    display : flex;
-    justify-content : center;
-    align-items : center;
-`;
 
 const Status404 = ({ location }) => {
     const pathname = location.pathname
@@ -18,3 +13,9 @@ const Status404 = ({ location }) => {
 }
 
 export default Status404;
+
+const Center = styled(Section)`
+    display : flex;
+    justify-content : center;
+    align-items : center;
+`;

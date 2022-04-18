@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
     a {
         text-decoration: none;
         color : inherit;
-        pointer : cursour;
+        cursor: pointer;
     }
 
     ${font}

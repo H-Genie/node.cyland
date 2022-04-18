@@ -1,16 +1,23 @@
+import React from 'react';
 import { Section } from '../styled/Router';
-import { Visitor } from '../Components/CylandRight/Visitor';
-import { story1, story2, story3, story4 } from '../Components/CylandRight/storyObj';
+import Visitor from '../Components/RightInterior/visitor/Visitor';
+import * as stories from '../Components/RightInterior/contents/storyContents';
 
 const Story = () => {
     document.title = "Story";
 
     return (
         <Section>
-            <Visitor no={1} visitor={story1} notice="true" />
-            <Visitor no={2} visitor={story2} />
-            <Visitor no={3} visitor={story3} />
-            <Visitor no={4} visitor={story4} />
+            {
+                Object.values(stories).map((story, index) => (
+                    <Visitor
+                        key={index + 1}
+                        no={index + 1}
+                        content={story}
+                        notice={index === 0 && true}
+                    />
+                ))
+            }
         </Section>
     )
 }

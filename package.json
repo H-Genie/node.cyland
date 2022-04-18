@@ -5,7 +5,8 @@
     "author": "H-Genie",
     "license": "MIT",
     "scripts": {
-        "start": "node server/index.js"
+        "start": "node index.js",
+        "dev": "npm run start --prefix client"
     },
     "dependencies": {
         "express": "^4.17.1"

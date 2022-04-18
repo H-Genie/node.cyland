@@ -1,66 +1,7 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import { db } from '../../modules/firebase';
-import { checkUpdate, checkDelete, deleteComment } from '../../modules/crudComment';
-
-const CommentList = styled.li`
-    height: 34px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgba(108, 108, 108);
-
-    &:last-child {border-bottom : none}
-    &:hover figure {display : flex;}
-`;
-
-const Div = styled.div`
-    display : flex;
-    align-items : center;
-`;
-
-const Dot = styled.div`
-    width: 3px;
-    height: 3px;
-    background-color: black;
-    border-radius: 50%;
-    margin : 0 10px;
-`;
-
-const FormComment = styled.form`
-    display : flex;
-    align-items : center;
-`;
-
-const Button = styled.button`
-    background-color: white;
-    border: 1px solid #decbc8;
-    cursor: pointer;
-
-    p {font-size : 12px}
-`;
-
-const Figure = styled.figure`
-    margin-right : 10px;
-    display : none;
-`;
-
-const Form = styled.form`
-    display : none;
-
-    &.display {display : flex;}
-`;
-
-const Input = styled.input`
-    height : 20px;
-    border: 1px solid #decbc8;
-    outline : none;
-    font-family : 'SCDream4';
-`;
-
-const InputComment = styled(Input)`
-    width : 400px;
-`;
+import { db } from '../../../modules/firebase';
+import { checkUpdate, checkDelete, deleteComment } from '../../../modules/crudComment';
 
 const Comments = ({ comment }) => {
     const [editing, setEditing] = useState(false);
@@ -147,3 +88,62 @@ const Comments = ({ comment }) => {
 }
 
 export default Comments;
+
+const CommentList = styled.li`
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(108, 108, 108);
+
+    &:last-child {border-bottom : none}
+    &:hover figure {display : flex;}
+`;
+
+const Div = styled.div`
+    display : flex;
+    align-items : center;
+`;
+
+const Dot = styled.div`
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+    margin : 0 10px;
+`;
+
+const FormComment = styled.form`
+    display : flex;
+    align-items : center;
+`;
+
+const Button = styled.button`
+    background-color: white;
+    border: 1px solid #decbc8;
+    cursor: pointer;
+
+    p {font-size : 12px}
+`;
+
+const Figure = styled.figure`
+    margin-right : 10px;
+    display : none;
+`;
+
+const Form = styled.form`
+    display : none;
+
+    &.display {display : flex;}
+`;
+
+const Input = styled.input`
+    height : 20px;
+    border: 1px solid #decbc8;
+    outline : none;
+    font-family : 'SCDream4';
+`;
+
+const InputComment = styled(Input)`
+    width : 400px;
+`;
