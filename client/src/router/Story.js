@@ -14,7 +14,6 @@ const Story = () => {
                         key={index + 1}
                         no={index + 1}
                         content={story}
-                        notice={index === 0 && true}
                     />
                 ))
             }

@@ -32,7 +32,7 @@ const PortfolioVisitor = ({ content }) => {
             <p>: {content.range}</p>
             <br />
 
-            <Img src={content.img} alt={content.title} />
+            {content.img && <Img src={content.img} alt={content.title} />}
             <br />
 
             <Row>

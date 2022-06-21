@@ -38,30 +38,6 @@ const Iframe = styled.iframe`
 export const story1 = (
     <>
         <br />
-        <br />
-        <P>
-            2019년까지 사무직에 종사하다가, 코딩을 하고 싶어
-            2020년 2월부터 7월까지 국비지원 웹퍼블리싱 과정을 수료하였습니다. <br /><br />
-
-            수료한 학원에서 개발자로 일할 기회를 주셔서,
-            6개월동안(청년 디지털 일자리사업) 홈페이지 개발 및 운영을 하였습니다. <br /><br />
-
-            그후 포트폴리오를 정비하며 다음과 같은 것들을 연습하였습니다. <br /><br />
-
-            ❏ <span>퍼블리싱</span> : 디자인 가이드 그대로 구현 가능 <br />
-            ❏ <span>자바스크립트</span> : 함수와 이벤트로 자유로운 DOM 조작 <br /> &nbsp;&nbsp; / 배열 및 객체관리로 백그라운드 로직 설계 <br />
-            ❏ <span>리액트</span> : Hook, Axios로 외부 데이터를 연동한 SPA 구성 가능<br />
-            ❏ <span>Node.js</span> : Mongo DB를 사용한 기초적인 스키마, 라우터 관리 <br /><br />
-
-            자바스크립트 기반의 풀스택 개발자가 되는 것을 최종 목표로 끊임없이 노력중입니다.
-        </P>
-        <br />
-    </>
-);
-
-export const story2 = (
-    <>
-        <br />
         <h4>개발자가 되기로 결심한 계기</h4>
         <br /><br />
         <P>
@@ -82,7 +58,7 @@ export const story2 = (
     </>
 );
 
-export const story3 = (
+export const story2 = (
     <>
         <br />
         <h4>어떤 개발자가 되고 싶은지?</h4>
@@ -119,7 +95,7 @@ export const story3 = (
     </>
 );
 
-export const story4 = (
+export const story3 = (
     <>
         <br />
         <h4>나란 사람은?</h4>
@@ -143,17 +119,19 @@ export const story4 = (
         </BoxShadow>
         <br /><br />
         <P>
-            ❏ 취미 : 런닝 <br /><br />
+            ❏ 취미 : 런닝 / 트래킹 / 등산 <br /><br />
 
-            2019년에 친구의 권유로 시작하여 특별하게 날씨가 나쁘지 않다면 매일 5km씩 뛰고 있습니다.
-            시원한 바람을 맞으며 달릴때면 몸도 가벼워지고, 근심걱정도 사라지는 느낌이 너무 좋습니다. <br /><br />
-            타고난 신체가 강하지 않아 나이를 먹을수록 체력 걱정이 많았지만, 런닝을 시작한 이후로 나날이 좋아지고 있는 것을 느낍니다.
-            (코로나가 종식되면) 연 2회 이상의 대회 참여를 목표로 하고 있습니다. <br />
+            런닝은 2019년 친구의 권유로 시작하게 되어 그해 두번의 대회를 참여했었습니다.
+            그동안 코로나로 인해 온라인 대회만 진행되어 아쉬움은 있었지만,
+            시원한 바람을 맞으며 달릴때면 몸도 가벼워지고, 근심걱정도 사라지는 것 같아 좋다고 느낍니다. <br /><br />
+
+            최근에는 범위를 넓혀, 트래킹과 등산까지도 즐기고 있습니다. <br />
+            빨리 코로나가 종식되어, 많은 사람들과 만나서 함께 달리고 싶습니다.
         </P>
         <Running>
-            <img src="https://h-genie.github.io/cyland/public/index/page4/running1.jpg" alt="running" />
-            <img src="https://h-genie.github.io/cyland/public/index/page4/running2.jpg" alt="running" />
-            <img src="https://h-genie.github.io/cyland/public/index/page4/running3.png" alt="running" />
+            <img src="./images/story/running1.jpg" alt="running" />
+            <img src="./images/story/running2.jpg" alt="running" />
+            <img src="./images/story/running3.jpg" alt="running" />
         </Running>
         <br />
         <P>

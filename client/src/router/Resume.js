@@ -36,6 +36,26 @@ const Resume = () => {
         </>
     );
 
+    const stack = (
+        <>
+            <br />
+            <h4>Tech Stack</h4>
+            <br />
+            <h6>
+                자바스크립트 기반의 풀스택 개발자가 되는 것을 목표로 <br />
+                끊임없이 노력중입니다.
+            </h6>
+            <br /><br />
+            <P>
+                ❏ 퍼블리싱 : 디자인 가이드 그대로 구현 가능 (반응형 포함) <br /><br />
+                ❏ 자바스크립트 : 함수와 이벤트로 자유로운 DOM 조작 <br /> &nbsp;&nbsp; / 배열 및 객체 관리로 백그라운드 로직 설계 <br /><br />
+                ❏ 리액트 : 상태관리, 데이터 페칭으로 SPA 구성 가능<br /><br />
+                ❏ Node.js : Mongo DB를 활용한 기초적인 REST API 설계 가능
+            </P>
+            <br />
+        </>
+    );
+
     return (
         <Section>
             <VideoContainer>
@@ -48,6 +68,7 @@ const Resume = () => {
             </VideoContainer>
 
             <Visitor no={1} content={resume} />
+            <Visitor no={2} content={stack} />
         </Section>
     )
 }

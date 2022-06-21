@@ -18,16 +18,16 @@ export const CarouselPortfolio = () => {
     return (
         <>
             <StyledSlider {...settings}>
-                <img src="./images/portfolio/p1.jpg" alt="carousel" />
-                <img src="./images/portfolio/p2.jpg" alt="carousel" />
-                <img src="./images/portfolio/p3.jpg" alt="carousel" />
-                <img src="./images/portfolio/p4.jpg" alt="carousel" />
-                <img src="./images/portfolio/p5.jpg" alt="carousel" />
-                <img src="./images/portfolio/p6.jpg" alt="carousel" />
-                <img src="./images/portfolio/p7.jpg" alt="carousel" />
-                <img src="./images/portfolio/p8.jpg" alt="carousel" />
-                <img src="./images/portfolio/p9.jpg" alt="carousel" />
-                <img src="./images/portfolio/p10.jpg" alt="carousel" />
+                <img src="./images/portfolio/cyland.jpg" alt="carousel" />
+                <img src="./images/portfolio/pagination.jpg" alt="carousel" />
+                <img src="./images/portfolio/movieapp.jpg" alt="carousel" />
+                <img src="./images/portfolio/todo.jpg" alt="carousel" />
+                <img src="./images/portfolio/genesis.jpg" alt="carousel" />
+                <img src="./images/portfolio/flag.jpg" alt="carousel" />
+                <img src="./images/portfolio/huge.jpg" alt="carousel" />
+                <img src="./images/portfolio/netflix.jpg" alt="carousel" />
+                <img src="./images/portfolio/naver.jpg" alt="carousel" />
+                <img src="./images/portfolio/vom.jpg" alt="carousel" />
             </StyledSlider>
         </>
     )

@@ -34,12 +34,12 @@ export const ModalHuge = () => {
                 onRequestClose={closeModal}
                 style={customStyles}
             >
-                <Img src="./images/portfolio/huge1.jpg" alt="box model" />
-                <Img src="./images/portfolio/huge2.jpg" alt="box model" />
-                <Img src="./images/portfolio/huge3.jpg" alt="box model" />
-                <Img src="./images/portfolio/huge4.jpg" alt="box model" />
-                <Img src="./images/portfolio/huge5.jpg" alt="box model" />
-                <Img src="./images/portfolio/huge6.jpg" alt="box model" />
+                <Img src="./images/portfolio/huge-modal-1.jpg" alt="box model" />
+                <Img src="./images/portfolio/huge-modal-2.jpg" alt="box model" />
+                <Img src="./images/portfolio/huge-modal-3.jpg" alt="box model" />
+                <Img src="./images/portfolio/huge-modal-4.jpg" alt="box model" />
+                <Img src="./images/portfolio/huge-modal-5.jpg" alt="box model" />
+                <Img src="./images/portfolio/huge-modal-6.jpg" alt="box model" />
             </Modal>
         </>
     )
@@ -59,7 +59,7 @@ export const ModalFlag = () => {
                 onRequestClose={closeModal}
                 style={customStyles}
             >
-                <Img src="./images/portfolio/flag.jpg" alt="logic" />
+                <Img src="./images/portfolio/flag-modal.jpg" alt="logic" />
             </Modal>
         </>
     )
@@ -79,9 +79,9 @@ export const ModalVom = () => {
                 onRequestClose={closeModal}
                 style={customStyles}
             >
-                <Img src="./images/portfolio/vom1.jpg" alt="flowchart" />
-                <Img src="./images/portfolio/vom2.jpg" alt="flowchart" />
-                <Img src="./images/portfolio/vom3.jpg" alt="flowchart" />
+                <Img src="./images/portfolio/vom-modal-1.jpg" alt="flowchart" />
+                <Img src="./images/portfolio/vom-modal-2.jpg" alt="flowchart" />
+                <Img src="./images/portfolio/vom-modal-3.jpg" alt="flowchart" />
             </Modal>
         </>
     )
