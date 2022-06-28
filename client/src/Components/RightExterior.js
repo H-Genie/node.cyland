@@ -6,6 +6,9 @@ const RightExterior = () => {
     return (
         <Exterior>
             <RightInterior />
+            <a href='https://nomadcoders.co/community/thread/577' target='_blank' rel='noreferrer'>
+                <Badge src='/images/badge.png' />
+            </a>
         </Exterior>
     )
 }
@@ -21,4 +24,11 @@ const Exterior = styled.div`
     align-items: center;
     
     position: relative;
+`;
+
+const Badge = styled.img`
+    position: absolute;
+    top: -36px;
+    right: -26px;
+    width: 150px;
 `;
