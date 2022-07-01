@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const selectOptions = [
     { value: '', label: '포트폴리오 파도타기' },
     { value: 'https://genie-pagination.herokuapp.com', label: 'Pagination' },
+    { value: 'https://genie-pokemon.herokuapp.com/', label: 'Pokemon' },
     { value: 'https://genie-movieapp.herokuapp.com', label: 'Movie App' },
     { value: 'https://h-genie.github.io/todo', label: 'To Do List App' },
     { value: 'https://h-genie.github.io/genesis', label: 'Genesis' },

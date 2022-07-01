@@ -19,7 +19,7 @@ export const cyland = new Portfolio(
     "CYLAND",
     "React, Firebase",
     "현재 사이트 (포트폴리오 소개)",
-    "React Router, 스타일 컴포넌트, Firestore 데이터베이스, OOP",
+    "React Router, Styled Component, Firestore 데이터베이스, OOP",
     "메인 컴포넌트 + 라우터 컴포넌트 3",
     "./images/portfolio/cyland.jpg",
     {
@@ -32,7 +32,7 @@ export const pagination = new Portfolio(
     "Pagination",
     "Node.js, MongoDB, React",
     "페이지네이션, 필터링, 소팅",
-    "REST API 설계, 인덱싱, Context",
+    "백엔드(REST API 설계, 인덱싱) \n 프런트엔드(React Context, 페이지네이션 로직)",
     "메인 컴포넌트, 상세 컴포넌트 (토글)",
     "./images/portfolio/pagination.jpg",
     {
@@ -41,12 +41,27 @@ export const pagination = new Portfolio(
     }
 )
 
+export const pokemon = new Portfolio(
+    "【 Front-end Development 】",
+    "Pokemon",
+    "React, TypeScript",
+    "포켓몬스터 캐릭터 도감",
+    "타입스크립트(타입, 배열, 튜플, 객체, 인터페이스, 함수), 데이터 페칭(React-Query)",
+    "메인 컴포넌트, 캐릭터별 라우터, 캐릭터 상세정보 컴포넌트(탭)",
+    "./images/portfolio/pokemon.jpg",
+    {
+        포트폴리오: "https://genie-pokemon.herokuapp.com",
+        코드: "https://github.com/H-Genie/pokemon"
+    }
+)
+
 export const movieapp = new Portfolio(
     "【 Front-end Development 】",
     "Movie App",
+
     "React",
     "TMDB API를 활용한 영화&배우 프로필 소개 페이지",
-    "React Router, Ant Design, Axios, 배열 관리",
+    "React Router, Ant Design, 데이터 페칭(Axios + useEffect), 배열 관리",
     "메인 컴포넌트 + 영화 상세 라우터 + 배우 상세 라우터",
     "./images/portfolio/movieapp.jpg",
     {
@@ -60,7 +75,7 @@ export const todo = new Portfolio(
     "To Do List App",
     "React, Redux, Firebase",
     "파이어베이스(구글 인증, 실시간 DB) 활용한 리액트 프로젝트 \n 로그인 & DB로 실제 활용 가능한 개인 투두 리스트 \n 기능 : 추가, 수정, 삭제, 순서변경 \n 인증정보 Redux로 관리",
-    "React Hook, Firestore 데이터베이스, 구글 Authentication",
+    "React Hook, 상태관리 (Redux-Toolkit), Firestore 데이터베이스, 구글 Authentication",
     "메인 컴포넌트",
     "./images/portfolio/todo.jpg",
     {
@@ -74,7 +89,7 @@ export const genesis = new Portfolio(
     "GENESIS",
     "HTML, CSS, JavaScript",
     "과정 수료 후 웹퍼블리싱 종합 프로젝트 \n 멀티플 캐러셀 구현에 초점",
-    "CSS 선택자 심화, 스크롤 이벤트, API 활용(유튜브)",
+    "CSS 선택자 심화, 스크롤 이벤트",
     "메인페이지 / 반응형",
     "./images/portfolio/genesis.jpg",
     {

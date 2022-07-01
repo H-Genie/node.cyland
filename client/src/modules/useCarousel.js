@@ -20,6 +20,7 @@ export const CarouselPortfolio = () => {
             <StyledSlider {...settings}>
                 <img src="./images/portfolio/cyland.jpg" alt="carousel" />
                 <img src="./images/portfolio/pagination.jpg" alt="carousel" />
+                <img src="./images/portfolio/pokemon.jpg" alt="carousel" />
                 <img src="./images/portfolio/movieapp.jpg" alt="carousel" />
                 <img src="./images/portfolio/todo.jpg" alt="carousel" />
                 <img src="./images/portfolio/genesis.jpg" alt="carousel" />
@@ -128,7 +129,7 @@ export const CarouselStory = () => {
 }
 
 const StyledSlider = styled(Slider)`
-    width : 320px;
+    width : 330px;
     
     .slick-prev, .slick-next {
         z-index : 1;
