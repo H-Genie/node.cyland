@@ -49,79 +49,79 @@ export const CarouselStory = () => {
             <StyledSlider {...settings} style={{ width: '480px' }}>
                 <div>
                     <img src="./images/story/beijing.jpg" alt="beijing" />
-                    <h6>2016 . China - Beijing</h6>
+                    <h6>China - Beijing</h6>
                 </div>
                 <div>
                     <img src="./images/story/bangkok.jpg" alt="bangkok" />
-                    <h6>2016 . Thailand - Bangkok</h6>
+                    <h6>Thailand - Bangkok</h6>
                 </div>
                 <div>
                     <img src="./images/story/pataya.jpg" alt="pataya" />
-                    <h6>2016 . Thailand - Pataya</h6>
+                    <h6>Thailand - Pataya</h6>
                 </div>
                 <div>
                     <img src="./images/story/cebu.jpg" alt="cebu" />
-                    <h6>2016 . Philippines - Cebu</h6>
+                    <h6>Philippines - Cebu</h6>
                 </div>
                 <div>
                     <img src="./images/story/tokyo.jpg" alt="tokyo" />
-                    <h6>2017 . Japan - Tokyo</h6>
+                    <h6>Japan - Tokyo</h6>
                 </div>
                 <div>
                     <img src="./images/story/rotenburg.jpg" alt="rotenburg" />
-                    <h6>2017 . Germany - Rotenburg</h6>
+                    <h6>Germany - Rotenburg</h6>
                 </div>
                 <div>
                     <img src="./images/story/munchen.jpg" alt="munchen" />
-                    <h6>2017 . Germany - München</h6>
+                    <h6>Germany - München</h6>
                 </div>
                 <div>
                     <img src="./images/story/salzburg.jpg" alt="salzburg" />
-                    <h6>2017 . Austria - Salzburg</h6>
+                    <h6>Austria - Salzburg</h6>
                 </div>
                 <div>
                     <img src="./images/story/salzgammergut.jpg" alt="salzgammergut" />
-                    <h6>2017 . Austria - Salzgammergut</h6>
+                    <h6>Austria - Salzgammergut</h6>
                 </div>
                 <div>
                     <img src="./images/story/hallstatt.jpg" alt="hallstatt" />
-                    <h6>2017 . Austria - Hallstatt</h6>
+                    <h6>Austria - Hallstatt</h6>
                 </div>
                 <div>
                     <img src="./images/story/vienna.jpg" alt="vienna" />
-                    <h6>2017 . Austria - Vienna</h6>
+                    <h6>Austria - Vienna</h6>
                 </div>
                 <div>
                     <img src="./images/story/praha.jpg" alt="praha" />
-                    <h6>2017 . Czech - Praha</h6>
+                    <h6>Czech - Praha</h6>
                 </div>
                 <div>
                     <img src="./images/story/bamberg.jpg" alt="bamberg" />
-                    <h6>2017 . Germany - Bamberg</h6>
+                    <h6>Germany - Bamberg</h6>
                 </div>
                 <div>
                     <img src="./images/story/wurzburg.jpg" alt="wurzburg" />
-                    <h6>2017 . Germany - Würzburg</h6>
+                    <h6>Germany - Würzburg</h6>
                 </div>
                 <div>
                     <img src="./images/story/astana.jpg" alt="astana" />
-                    <h6>2017 . Kazahstan - Astana</h6>
+                    <h6>Kazahstan - Astana</h6>
                 </div>
                 <div>
                     <img src="./images/story/danang.jpg" alt="danang" />
-                    <h6>2018 . Viet Nam - Danang</h6>
+                    <h6>Viet Nam - Danang</h6>
                 </div>
                 <div>
                     <img src="./images/story/hue.jpg" alt="hue" />
-                    <h6>2018 . Viet Nam - Hue</h6>
+                    <h6>Viet Nam - Hue</h6>
                 </div>
                 <div>
                     <img src="./images/story/hoian.jpg" alt="hoian" />
-                    <h6>2018 . Viet Nam - Hoi an</h6>
+                    <h6>Viet Nam - Hoi an</h6>
                 </div>
                 <div>
                     <img src="./images/story/jangjiajie.jpg" alt="jangjiajie" />
-                    <h6>2019 . China - Jangjiajie</h6>
+                    <h6>China - Jangjiajie</h6>
                 </div>
             </StyledSlider>
         </>

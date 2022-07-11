@@ -25,13 +25,11 @@ const Resume = () => {
             <br />
             <br />
 
-            <P onClick={() => moveToVideo(10)}>▶ Career (0:10)</P>
+            <P onClick={() => moveToVideo(10)}>▶ Office Automation Skills (0:10)</P>
             <br />
-            <P onClick={() => moveToVideo(23)}>▶ Office Automation Skills (0:23)</P>
+            <P onClick={() => moveToVideo(30.5)}>▶ Office Automation Portfolio (0:30)</P>
             <br />
-            <P onClick={() => moveToVideo(43.5)}>▶ Office Automation Portfolio (0:43)</P>
-            <br />
-            <P onClick={() => moveToVideo(141)}>▶ Coding Skills & Portfolio(2:21)</P>
+            <P onClick={() => moveToVideo(128)}>▶ Coding Skills & Portfolio(2:08)</P>
             <br />
         </>
     );

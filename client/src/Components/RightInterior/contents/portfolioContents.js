@@ -43,7 +43,7 @@ export const pagination = new Portfolio(
 
 export const pokemon = new Portfolio(
     "【 Front-end Development 】",
-    "Pokemon",
+    "Pocketmon",
     "React, TypeScript",
     "포켓몬스터 캐릭터 도감",
     "타입스크립트(타입, 배열, 튜플, 객체, 인터페이스, 함수), 데이터 페칭(React-Query)",
@@ -60,7 +60,7 @@ export const movieapp = new Portfolio(
     "Movie App",
 
     "React",
-    "TMDB API를 활용한 영화&배우 프로필 소개 페이지",
+    "영화&배우 프로필 소개 페이지",
     "React Router, Ant Design, 데이터 페칭(Axios + useEffect), 배열 관리",
     "메인 컴포넌트 + 영화 상세 라우터 + 배우 상세 라우터",
     "./images/portfolio/movieapp.jpg",
@@ -74,7 +74,7 @@ export const todo = new Portfolio(
     "【 Front-end Development 】",
     "To Do List App",
     "React, Redux, Firebase",
-    "파이어베이스(구글 인증, 실시간 DB) 활용한 리액트 프로젝트 \n 로그인 & DB로 실제 활용 가능한 개인 투두 리스트 \n 기능 : 추가, 수정, 삭제, 순서변경 \n 인증정보 Redux로 관리",
+    "실제 활용 가능한 투두 리스트 (개인인증, DB 저장) \n\n 파이어베이스(구글 인증, 실시간 DB) 활용한 리액트 프로젝트 \n 기능 : 추가, 수정, 삭제, 순서변경 \n 인증정보 Redux로 관리",
     "React Hook, 상태관리 (Redux-Toolkit), Firestore 데이터베이스, 구글 Authentication",
     "메인 컴포넌트",
     "./images/portfolio/todo.jpg",
@@ -132,7 +132,7 @@ export const netflix = new Portfolio(
     "【 Web Publishing 】",
     "NETFLIX",
     "HTML, CSS, JavaScript",
-    "미디어쿼리 실습 프로젝트",
+    "미디어쿼리 실습 프로젝트 \n\n * 넷플릭스 사이트와 똑같아 피싱 사이트로 감지되나, 이용에 문제가 없습니다. \n '세부정보-안전하지 않은 사이트 방문'을 눌러주세요",
     "폼 태그, 반복문, CSS 반응형",
     "메인페이지 / 반응형",
     "./images/portfolio/netflix.jpg",
