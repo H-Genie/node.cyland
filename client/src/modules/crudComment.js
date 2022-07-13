@@ -6,10 +6,11 @@ export const setComment = (e) => {
     const checkEmpty =
         e.target[0].value === "" ||
         e.target[2].value === "" ||
-        e.target[3].value === "";
+        e.target[3].value === "" ||
+        e.target[3].value.length < 4;
 
     if (checkEmpty) {
-        alert("모든 정보를 다 입력해주세요");
+        alert("빈 칸이 있거나, 자릿수가 맞는지 확인해주세요");
         return;
     }
 

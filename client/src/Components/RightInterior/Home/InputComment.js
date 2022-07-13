@@ -25,14 +25,11 @@ const InputComment = () => {
                     <InputBottom
                         type="text"
                         placeholder="일촌명 (최대 16자)"
-                        maxLength="16"
                         autoComplete='false'
                     />
                     <InputBottom
                         type="password"
                         placeholder="비밀번호 (4~12자)"
-                        minLength="4"
-                        maxLength="12"
                         autoComplete='false'
                     />
                 </FormBottom>
